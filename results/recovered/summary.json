@@ -1,0 +1,39 @@
+{
+  "model": "liquid/lfm-3-1.7b:free",
+  "temperature": 0,
+  "seed_order": 42,
+  "repeats": 1,
+  "interval": 5,
+  "retries": 0,
+  "max_tokens": 4096,
+  "python": "3.13.3",
+  "finished_at_utc": "2026-11-08T11:17:22.484440+00:00",
+  "metrics": {
+    "one_shot": {
+      "n": 14,
+      "success_rate": 0.9285714285714286,
+      "quality_all": 0.7857142857142857,
+      "quality_successful": 0.8461538461538461,
+      "mean_seconds": 11.451906976281732,
+      "mean_calls": 1,
+      "mean_total_tokens": null,
+      "total_tokens_coverage": 0.9285714285714286,
+      "mean_cost_usd": null,
+      "cost_usd_coverage": 0.9285714285714286
+    },
+    "sequential": {
+      "n": 14,
+      "success_rate": 0.7142857142857143,
+      "quality_all": 0.625,
+      "quality_successful": 0.875,
+      "mean_seconds": 18.112973883922677,
+      "mean_calls": 1.8571428571428572,
+      "mean_total_tokens": null,
+      "total_tokens_coverage": 0.7142857142857143,
+      "mean_cost_usd": null,
+      "cost_usd_coverage": 0.7142857142857143
+    }
+  },
+  "note": "Повторены только ошибки первичного прогона; успешные первичные ответы сохранены. Метрики здесь относятся к последней попытке каждого входа. Полный расход включает previous_attempt.",
+  "interval_from": "mixed: successful primary=start; recovery=end"
+}
